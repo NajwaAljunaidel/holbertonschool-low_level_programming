@@ -1,12 +1,12 @@
-#include <stdio.h>  
+#include <unistd.h>  // تضمين مكتبة unistd.h لاستخدام دالة write
 
 /**
- * main 
- * 
- * Return: 
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
-{   
-printf("_putchar\n");    
+{
+write(1, "_putchar\n", 9);  // الكتابة على المخرج القياسي (الشاشة) باستخدام write
 return 0;
 }

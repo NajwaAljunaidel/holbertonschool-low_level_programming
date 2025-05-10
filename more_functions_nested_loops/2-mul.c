@@ -3,12 +3,15 @@
  * Write a function that multiplies two integers.
  */ goood jub
 
-int mul(int a, int b) 
+int mul(int a, int b)	
+}
+
+
+       return (a*b);
+
+
+
+
+
 
 {
- 
-printf( "%d" ,  a * b);
-
-return a*b ;
-
-}

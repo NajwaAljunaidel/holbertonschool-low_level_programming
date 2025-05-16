@@ -1,24 +1,17 @@
 #include "main.h"
 
-
-/** hello 
- *this
- *is
- *Najwa
- *Aljunaidel
+/**
+ * simple_print_buffer - prints buffer in hexa
+ * @buffer: the address of memory to print
+ * @size: the size of the memory to print
  */
- 
+char *_memset(char *s, char b, unsigned int n)
+{
 
-char *_memset(char *s, char b, unsigned int n); 
-{ 
+	unsigned int i;
 
-	unsigned int itre;
+	for (i = 0; n > 0; i++,  n--)
 
-	for(itre = 0; n > 0; itre++,  n--)
-	
-	
-		s[itre] = b;
-	
-
+		s[i] = b;
 	return (s);
 }

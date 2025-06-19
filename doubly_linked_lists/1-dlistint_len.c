@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- * main - check the code
- *
- * Return: Always EXIT_SUCCESS.
+ * dlistint_len - يحسب عدد العقد في لائحة dlistint_t
+ * @h: مؤشر لأول عقدة في اللائحة
+ * Return: عدد العناصر
  */
 size_t dlistint_len(const dlistint_t *h)
 {

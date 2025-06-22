@@ -1,4 +1,4 @@
-```markdown
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C logo" width="60" height="60"/>
 &nbsp;&nbsp;
 <img src="https://github.com/user-attachments/assets/5f8d33ce-fed8-438a-935c-a9916afef26e" alt="Holberton logo" width="110" height="55"/>
@@ -43,12 +43,12 @@ In addition to implementation, we learned to test, debug, analyze performance, a
 
 ## ⚙️ Requirements
 
-- No use of global variables
-- No use of standard library functions (e.g., `printf`, `puts`) unless specified
-- Follow the short Big O notation format:
-  - `O(1)`, `O(n)`, `O(n^2)`, `O(nlog(n))`, `O(log(n))`, `O(n!)`
-- All `.c` and `.h` files must comply with Betty coding style
-- All answers must end with a newline
+- No use of global variables  
+- No use of standard library functions (e.g., `printf`, `puts`) unless specified  
+- Follow the short Big O notation format:  
+  - `O(1)`, `O(n)`, `O(n^2)`, `O(nlog(n))`, `O(log(n))`, `O(n!)`  
+- All `.c` and `.h` files must comply with Betty coding style  
+- All answers must end with a newline  
 
 ---
 
@@ -88,12 +88,12 @@ gcc -Wall -Wextra -Werror -pedantic print_array.c bubble_sort.c 0-main.c -o bubb
 
 ## 📌 Development & Git Flow
 
-- All changes were made via **Pull Requests** and reviewed by the other teammate.
-- When conflicts occurred, they were resolved **through team coordination**.
-- One major challenge was repeated failure with **Betty style** checks:
-  - Despite merging, Holberton showed 91% due to Betty errors.
-  - We created **3 separate branches** to isolate and fix style issues.
-  - After repeated peer review and debugging, we reached **100%** score.
+- All changes were made via **Pull Requests** and reviewed by the other teammate.  
+- When conflicts occurred, they were resolved **through team coordination**.  
+- One major challenge was repeated failure with **Betty style** checks:  
+  - Despite merging, Holberton showed 91% due to Betty errors.  
+  - We created **3 separate branches** to isolate and fix style issues.  
+  - After repeated peer review and debugging, we reached **100%** score.  
 
 This process improved our understanding of version control, team communication, and debugging under pressure.
 
@@ -101,9 +101,10 @@ This process improved our understanding of version control, team communication, 
 
 ## 🧪 Testing
 
-To test each algorithm:
-- Run the corresponding main file with the algorithm and `print_array.c` / `print_list.c`
-- Example for testing Quick Sort:
+To test each algorithm:  
+Run the corresponding main file with the algorithm and `print_array.c` / `print_list.c`
+
+Example for testing Quick Sort:
 
 ```bash
 gcc -Wall -Wextra -Werror -pedantic print_array.c quick_sort.c 3-main.c -o quick
@@ -149,5 +150,4 @@ gcc -Wall -Wextra -Werror -pedantic print_array.c quick_sort.c 3-main.c -o quick
 </table>
 
 ---
-```
 
